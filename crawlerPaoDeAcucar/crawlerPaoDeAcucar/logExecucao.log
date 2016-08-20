@@ -1,0 +1,1444 @@
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/134111/ervilha-partida-yoki-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=1&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/4647/sopao-de-legumes-com-macarrao-maggi-pacote-200g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/74997/sardinha-em-oleo-com-ervas-gomes-costa-lata-125g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/312689/azeitona-verde-com-caroco-gallo-vidro-183g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/315288/capsulas-de-cafe-madame-dovalliers-intenso-55g-com-10-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/88895/polvilho-azedo-qualita-pacote-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/129901/azeite-espanhol-de-oliva-extra-virgem-equilibrado-borges-vidro-500ml> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=71&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes?&p=29&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4226/carnes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=68&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=67&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/101877/alho-triturado-sem-sal-alho-free-pote-400g> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=33&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=183&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/134111/ervilha-partida-yoki-500g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Outros Gr\xe3os'],
+ 'id': '134111',
+ 'image_name': '134111',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg'],
+ 'images': [{'checksum': '6ca4e750887d796a66ca62fb143951ac',
+             'path': 'full/2eaef1f3d4868e717140d7f32f60751fdb99e6cb.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg'}],
+ 'nome': [u'Ervilha Partida YOKI 500g'],
+ 'preco': [u'7,45'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/268/509268.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/268/509268.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/180896/arroz-integral-7-graos-com-quinoa-tio-joao-pacote-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=1&ftr=)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/74997/sardinha-em-oleo-com-ervas-gomes-costa-lata-125g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Conservas e Enlatados'],
+ 'id': '74997',
+ 'image_name': '74997',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/268/509268.jpg'],
+ 'images': [{'checksum': '89ea6e9f32efa94d63689d9d2897e294',
+             'path': 'full/226909aaee38cd1e227257380dc2876027f82a69.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/268/509268.jpg'}],
+ 'nome': [u'Sardinha em \xd3leo com Ervas GOMES COSTA Lata 125g'],
+ 'preco': [u'3,09'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/92508/cafe-a-vacuo-torrado-e-moido-premium-3-coracoes-caixa-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=1&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/276/474276.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/276/474276.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/4647/sopao-de-legumes-com-macarrao-maggi-pacote-200g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Sopas e Cremes'],
+ 'id': '4647',
+ 'image_name': '4647',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/276/474276.jpg'],
+ 'images': [{'checksum': 'b894c9c64ee9828743e6d8772c1b0d9f',
+             'path': 'full/7173513718bef964c9d6acce59cad55d3d6f55d8.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/276/474276.jpg'}],
+ 'nome': [u'Sop\xe3o de Legumes com Macarr\xe3o MAGGI Pacote 200g'],
+ 'preco': [u'5,35'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/93/498093.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/93/498093.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/312689/azeitona-verde-com-caroco-gallo-vidro-183g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Conservas e Enlatados'],
+ 'id': '312689',
+ 'image_name': '312689',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/93/498093.jpg'],
+ 'images': [{'checksum': '9c49972ae765d08dc176741986adf6c2',
+             'path': 'full/abe5ee55e0d598ea19709460084266493cd594f8.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/93/498093.jpg'}],
+ 'nome': [u'Azeitona Verde com Caro\xe7o GALLO Vidro 183g'],
+ 'preco': [u'9,19'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/554/creme-de-ricota-balkis-220g> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=68&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/156055/flan-de-baunilha-com-calda-de-caramelo-moca-nestle-220g> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=68&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/866/504866.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/866/504866.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/225608/fralda-pampers-premium-care-mega-pacotao-grande-pacote-com-40-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/326569/kit-com-3-fraldas-pampers-premium-care-mega-pacotao-grande-pacote-com-40-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/278/500278.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/278/500278.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/129901/azeite-espanhol-de-oliva-extra-virgem-equilibrado-borges-vidro-500ml>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Azeites'],
+ 'id': '129901',
+ 'image_name': '129901',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/866/504866.jpg'],
+ 'images': [{'checksum': '8a82f7e52e92a8e1de83a375699cc614',
+             'path': 'full/3e0178493e25f940b07011213161bfd459db4bd6.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/866/504866.jpg'}],
+ 'nome': [u'Azeite Espanhol de Oliva Extra Virgem Equilibrado BORGES Vidro 500ml'],
+ 'preco': [u'23,50'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/250/473250.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/250/473250.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/111/474111.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/111/474111.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/315288/capsulas-de-cafe-madame-dovalliers-intenso-55g-com-10-unidades>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Matinais'],
+ 'categorias3': [u'C\xe1psulas de Caf\xe9s e Ch\xe1s'],
+ 'id': '315288',
+ 'image_name': '315288',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/278/500278.jpg'],
+ 'images': [{'checksum': 'd8a9b0b28b77cf8c334bca251231cb71',
+             'path': 'full/e9a7328a7c7fc339aed8506f67609f7dd152017f.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/278/500278.jpg'}],
+ 'nome': [u'C\xe1psulas de Caf\xe9 Madame DOVALLIERS Intenso 55g com 10 Unidades'],
+ 'preco': [u'15,50'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/88895/polvilho-azedo-qualita-pacote-500g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Farinhas e Farofas'],
+ 'id': '88895',
+ 'image_name': '88895',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/250/473250.jpg'],
+ 'images': [{'checksum': '7f566b58c2a500627c27560a1727b9be',
+             'path': 'full/664bfc640c47e8a417d84361371bac125b4a30f7.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/250/473250.jpg'}],
+ 'nome': [u'Polvilho Azedo QUALIT\xc1 Pacote 500g'],
+ 'preco': [u'7,09'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/101877/alho-triturado-sem-sal-alho-free-pote-400g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Feira'],
+ 'categorias3': [u'Alho'],
+ 'id': '101877',
+ 'image_name': '101877',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/111/474111.jpg'],
+ 'images': [{'checksum': 'fccd1279e396eb7d0db6390098288be5',
+             'path': 'full/6089c24fa4a0d8969d53966c5764674198dd8d39.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/111/474111.jpg'}],
+ 'nome': [u'Alho Triturado sem Sal ALHO FREE Pote 400g'],
+ 'preco': [u'14,99'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/328535/kit-com-3-lencos-umedecidos-pampers-pacote-com-64-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/321890/papinha-infantil-mix-de-frutas-nestle-pouch-120g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/326654/kit-com-3-caixas-de-fraldas-huggies-supreme-care-para-meninas-media-com-120-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=33&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/324613/sabonete-liquido-infantil-baby-johnsons-aveia-para-pele-delicada-400ml> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/321891/papinha-de-frutas-manga-e-pera-nestle-pouch-120g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/326517/kit-com-2-caixas-de-fraldas-pampers-premium-care-hiper-pack-grande-com-60-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/158/413158x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/158/413158x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/156055/flan-de-baunilha-com-calda-de-caramelo-moca-nestle-220g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Matinais'],
+ 'categorias3': [u'Sobremesas L\xe1cteas e de Soja'],
+ 'id': '156055',
+ 'image_name': '156055',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/158/413158x200x200.jpg'],
+ 'images': [{'checksum': '10115df86a89f50797550aecd967e810',
+             'path': 'full/9c2775dce399deaa8f6d1789acd402888534655c.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/158/413158x200x200.jpg'}],
+ 'nome': [u'Flan de Baunilha com Calda de Caramelo Mo\xe7a NESTL\xc9 220g'],
+ 'preco': [u'3,15'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/328541/kit-com-3-lencos-umedecidos-pampers-pacote-com-128-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/291597/papinha-infantil-de-banana-com-yogurte-heinz-pote-113g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/321168/formula-infantil-nan-supreme-2-nestle-lata-400g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/326653/kit-com-3-caixas-de-fraldas-huggies-supreme-care-para-meninos-extra-grande-com-78-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/186834/papinha-infantil-escondidinho-de-carne-nestle-pote-250g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/329025/leite-em-po-integral-instantaneo-ninho-nestle-lata-400g---2-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/928/516928.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/928/516928.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/225608/fralda-pampers-premium-care-mega-pacotao-grande-pacote-com-40-unidades>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Fraldas'],
+ 'id': '225608',
+ 'image_name': '225608',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/928/516928.jpg'],
+ 'images': [{'checksum': '3615af27ad0b873a15fb2edf5a1eeb56',
+             'path': 'full/ab12aae842c1b6ea83fa2da1281a327057f18fff.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/928/516928.jpg'}],
+ 'nome': [u'Fralda PAMPERS Premium Care Mega Pacot\xe3o Grande Pacote com 40 Unidades'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/320/473320.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/320/473320.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/70/508070.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/70/508070.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/92508/cafe-a-vacuo-torrado-e-moido-premium-3-coracoes-caixa-500g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Caf\xe9s'],
+ 'id': '92508',
+ 'image_name': '92508',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/320/473320.jpg'],
+ 'images': [{'checksum': '7584e9821f94fe2d31f76a073889192b',
+             'path': 'full/515fccb2a7ab4b741cc821e98eaad359a35f2e5b.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/320/473320.jpg'}],
+ 'nome': [u'Caf\xe9 \xe0 V\xe1cuo Torrado e Mo\xeddo Premium 3 CORA\xc7\xd5ES Caixa 500g'],
+ 'preco': [u'10,90'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/759/510759.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/759/510759.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/554/creme-de-ricota-balkis-220g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Queijos e Frios'],
+ 'categorias3': [u'Queijos e Latic\xednios'],
+ 'id': '554',
+ 'image_name': '554',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/70/508070.jpg'],
+ 'images': [{'checksum': '45258fbeba1670c36db3a831b6cac205',
+             'path': 'full/74d918cff158105c80257970a1d717ee13601da8.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/70/508070.jpg'}],
+ 'nome': [u'Creme de Ricota BALKIS 220g'],
+ 'preco': [u'4,75'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/180896/arroz-integral-7-graos-com-quinoa-tio-joao-pacote-500g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Arroz'],
+ 'id': '180896',
+ 'image_name': '180896',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/759/510759.jpg'],
+ 'images': [{'checksum': 'cb54779f70e73de5d84a34684c580952',
+             'path': 'full/cd0fbe22c8791150600298efe56526f71fbdbbce.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/759/510759.jpg'}],
+ 'nome': [u'Arroz Integral 7 Gr\xe3os com Quinoa TIO JO\xc3O Pacote 500g'],
+ 'preco': [u'8,29'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/733/506733.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/733/506733.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/321890/papinha-infantil-mix-de-frutas-nestle-pouch-120g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Papinha'],
+ 'id': '321890',
+ 'image_name': '321890',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/733/506733.jpg'],
+ 'images': [{'checksum': 'da9290516699a663fd168a4e3ee72818',
+             'path': 'full/c2a3201cc592e793b4a7ef69df86ec6945329f55.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/733/506733.jpg'}],
+ 'nome': [u'Papinha Infantil Mix de Frutas NESTL\xc9 Pouch 120g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/322/506322.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/322/506322.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/324613/sabonete-liquido-infantil-baby-johnsons-aveia-para-pele-delicada-400ml>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Hora do Banho'],
+ 'id': '324613',
+ 'image_name': '324613',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/322/506322.jpg'],
+ 'images': [{'checksum': '07f841c98e01ab4c4aae5975229d4841',
+             'path': 'full/747326cc81f55214fbacc8e8c8dda4ad29f148da.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/322/506322.jpg'}],
+ 'nome': [u"Sabonete L\xedquido Infantil Baby JOHNSON'S Aveia para Pele Delicada 400ml"],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/158481/formula-infantil-nan-a.r-nestle-lata-400g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/290/507290.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/290/507290.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/673/512673.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/673/512673.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/822/508822.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/822/508822.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/326654/kit-com-3-caixas-de-fraldas-huggies-supreme-care-para-meninas-media-com-120-unidades-cada>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Fraldas'],
+ 'id': '326654',
+ 'image_name': '326654',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/290/507290.jpg'],
+ 'images': [{'checksum': '0ca41d3e957b3bc0dc4ecb9873f82543',
+             'path': 'full/8acd02c16630c22ac31ed02ce5b6ecc31f72149a.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/290/507290.jpg'}],
+ 'nome': [u'Kit com 3 Caixas de Fraldas HUGGIES Supreme Care para Meninas M\xe9dia com 120 Unidades Cada'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/170/507170.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/170/507170.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/56/478056.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/56/478056.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/186/507186.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/186/507186.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/850/508850.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/850/508850.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/321891/papinha-de-frutas-manga-e-pera-nestle-pouch-120g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Papinha'],
+ 'id': '321891',
+ 'image_name': '321891',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/673/512673.jpg'],
+ 'images': [{'checksum': '440bf9533a2eca6f5a0ef79642533eea',
+             'path': 'full/4ccaa2cce9a1b3ae45a2cd2122ac7ef8e1f6f178.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/673/512673.jpg'}],
+ 'nome': [u'Papinha de Frutas Manga e Pera NESTL\xc9 Pouch 120g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/328535/kit-com-3-lencos-umedecidos-pampers-pacote-com-64-unidades-cada>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Len\xe7os Umedecidos'],
+ 'id': '328535',
+ 'image_name': '328535',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/822/508822.jpg'],
+ 'images': [{'checksum': 'cf9a066e9fe5e9b4462108437250bc07',
+             'path': 'full/4b3f17676f1a57a95564b5a8bc876f8db06cc086.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/822/508822.jpg'}],
+ 'nome': [u'Kit com 3 Len\xe7os Umedecidos PAMPERS Pacote com 64 Unidades Cada'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/326517/kit-com-2-caixas-de-fraldas-pampers-premium-care-hiper-pack-grande-com-60-unidades-cada>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Fraldas'],
+ 'id': '326517',
+ 'image_name': '326517',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/170/507170.jpg'],
+ 'images': [{'checksum': '92b88ee7293fb0c919dc578c68144e06',
+             'path': 'full/28f24a5c04c35e29408190e4ef5e635b9b824d3e.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/170/507170.jpg'}],
+ 'nome': [u'Kit com 2 Caixas de Fraldas PAMPERS Premium Care Hiper Pack Grande com 60 Unidades Cada'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/291597/papinha-infantil-de-banana-com-yogurte-heinz-pote-113g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Papinha'],
+ 'id': '291597',
+ 'image_name': '291597',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/56/478056.jpg'],
+ 'images': [{'checksum': '2ef8072cb223e6d9d5754766fac5d4f1',
+             'path': 'full/29a188719c7b9cbe90eeb8a997e9b1ef7fff5e55.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/56/478056.jpg'}],
+ 'nome': [u'Papinha Infantil de Banana com Yogurte HEINZ Pote 113g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/601/508601.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/601/508601.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/326569/kit-com-3-fraldas-pampers-premium-care-mega-pacotao-grande-pacote-com-40-unidades-cada>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Fraldas'],
+ 'id': '326569',
+ 'image_name': '326569',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/186/507186.jpg'],
+ 'images': [{'checksum': '49273a57909419eef33a991a8dc08938',
+             'path': 'full/913fa03d19c1feb1fc43f7e9095398f18221f362.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/186/507186.jpg'}],
+ 'nome': [u'Kit com 3 Fraldas PAMPERS Premium Care Mega Pacot\xe3o Grande Pacote com 40 Unidades Cada'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/328541/kit-com-3-lencos-umedecidos-pampers-pacote-com-128-unidades-cada>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Len\xe7os Umedecidos'],
+ 'id': '328541',
+ 'image_name': '328541',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/850/508850.jpg'],
+ 'images': [{'checksum': '59ec312e04d94888ce714e0115350f47',
+             'path': 'full/465afa46e8ad01e909d259a28a294a3e24fca4bf.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/850/508850.jpg'}],
+ 'nome': [u'Kit com 3 Len\xe7os Umedecidos PAMPERS Pacote com 128 Unidades Cada'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/321168/formula-infantil-nan-supreme-2-nestle-lata-400g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Leite e F\xf3rmula Infantil'],
+ 'id': '321168',
+ 'image_name': '321168',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/601/508601.jpg'],
+ 'images': [{'checksum': 'ae8128ce1b94d982e0939b26e72f0204',
+             'path': 'full/c85cd5dacd4fa78838f23885c4751cb96d5f78a4.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/601/508601.jpg'}],
+ 'nome': [u'F\xf3rmula Infantil NAN Supreme 2 Nestl\xe9 Lata 400g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/155449/leite-longa-vida-integral-ninho-nestle-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/328551/kit-com-3-lencos-umedecidos-natural-baby-wipes-pacote-com-50-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/329030/leite-em-po-instataneo-ninho-nestle-sache-800g---2-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/43694/leite-em-po-instataneo-ninho-nestle-sache-800g> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/26680/espumante-nacional-branco-doce-salton-moscatel-garrafa-750ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/323011/cerveja-bohemia-bela-rosa-garrafa-600ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/396/462396.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/396/462396.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/131201/espumante-nacional-brut-salton-garrafa-750ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/158481/formula-infantil-nan-a.r-nestle-lata-400g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Leite e F\xf3rmula Infantil'],
+ 'id': '158481',
+ 'image_name': '158481',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/396/462396.jpg'],
+ 'images': [{'checksum': 'de7181fae8bb72b24c52cb82d8e331c4',
+             'path': 'full/f3a7e99aadb3d7b29aeeb4a104c6320cec37f056.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/396/462396.jpg'}],
+ 'nome': [u'F\xf3rmula Infantil NAN A.R Nestl\xe9 Lata 400g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/236/509236.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/236/509236.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/318909/vinho-chileno-branco-aves-del-sur-sauvignon-blanc-garrafa-750ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/329025/leite-em-po-integral-instantaneo-ninho-nestle-lata-400g---2-unidades>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Bebidas'],
+ 'categorias3': [u'Leite'],
+ 'id': '329025',
+ 'image_name': '329025',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/236/509236.jpg'],
+ 'images': [{'checksum': 'b0dc18a096c7207cffda2b3a4ff9e132',
+             'path': 'full/ded07fe3abbdefacadb130648badad959bab9643.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/236/509236.jpg'}],
+ 'nome': [u'Leite em P\xf3 Integral Instant\xe2neo Ninho NESTL\xc9 Lata 400g - 2 Unidades'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/291902/smoothie-100-frutas-acai-morango-e-banana-queensbery-260g> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/330780/kit-com-12-leites-ninho-longa-vida-integral---1-litro-cada> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/289/507289.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/289/507289.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/326653/kit-com-3-caixas-de-fraldas-huggies-supreme-care-para-meninos-extra-grande-com-78-unidades-cada>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Beb\xeas'],
+ 'categorias3': [u'Fraldas'],
+ 'id': '326653',
+ 'image_name': '326653',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/289/507289.jpg'],
+ 'images': [{'checksum': '79954d62be9846d387a067752e1ee103',
+             'path': 'full/d2ebfb637b05e0bc7db7f0dfbadfe35cd8c138d8.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/289/507289.jpg'}],
+ 'nome': [u'Kit com 3 Caixas de Fraldas HUGGIES Supreme Care para Meninos Extra Grande com 78 Unidades Cada'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/318907/vinho-chileno-branco-aves-del-sur-chardonnay-garrafa-750ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/327145/suco-de-uva-integral-tinto-casa-madeira-garrafa-500ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/328557/kit-com-2-lencos-umedecidos-johnsons-baby-extra-cuidado-pacote-com-48-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/327593/refrigerante-guarana-jesus-garrafa-250ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/301/506301.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/301/506301.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/155449/leite-longa-vida-integral-ninho-nestle-1-litro>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Matinais'],
+ 'categorias3': [u'Leite e Achocolatado'],
+ 'id': '155449',
+ 'image_name': '155449',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/301/506301.jpg'],
+ 'images': [{'checksum': '60a2c83f5eca731fe836c94d021586fd',
+             'path': 'full/fa995c2831199b2e0fb9af4120c2e5f9f378e1a3.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/301/506301.jpg'}],
+ 'nome': [u'Leite Longa Vida Integral Ninho NESTL\xc9 1 Litro'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/154059/espumante-brut-chandon-baby-garrafa-187ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=183&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/266/504266.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/266/504266.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/318909/vinho-chileno-branco-aves-del-sur-sauvignon-blanc-garrafa-750ml>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Bebidas'],
+ 'categorias3': [u'Vinhos e Espumantes'],
+ 'id': '318909',
+ 'image_name': '318909',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/266/504266.jpg'],
+ 'images': [{'checksum': 'afa43e0e928a08230af3e0f741849946',
+             'path': 'full/77d10d16f48f1b1855bbb5fe70f12ec4a1c8656d.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/266/504266.jpg'}],
+ 'nome': [u'Vinho Chileno Branco AVES DEL SUR Sauvignon Blanc Garrafa 750ml'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+INFO:root:Started
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/9218/bacon-defumado-sadia-pedaco-200g> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/52621/bebida-a-base-de-soja-sufresh-soyos-sabor-morango-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/115142/suco-de-uva-del-valle-mais-200ml> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=1&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/131206/nectar-de-manga-sufresh-200ml> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/104490/iogurte-liquido-com-polpa-de-ameixa-zero-gordura-activia-180g> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=134&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/50682/nectar-de-pessego-del-valle-mais-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/22729/nectar-de-caju-del-valle-mais-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=84&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/3848/cappuccino-classic-3-coracoes-200g-caixa-com-10-saches> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/326577/kit-com-2-fraldas-huggies-up-e-go-grande-pacote-com-19-unidades-cada> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=30&ftr=> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/img/uploads/1/278/452278x200x200.jpg> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=12&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4226/carnes?&p=29&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/34688/fralda-turma-da-monica-tripla-protecao-jumbo-grande-pacote-com-28-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=1&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/222013/fralda-huggies-up-e-go-grande-pacote-com-19-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/115456/sabonete-infantil-pompom-locao-hidratante-80g> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/326647/kit-com-3-fraldas-huggies-up-e-go-grande-pacote-com-19-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/326577/kit-com-2-fraldas-huggies-up-e-go-grande-pacote-com-19-unidades-cada> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=23&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/143131/papinha-infantil-de-peito-de-hortalicas-com-peito-de-frango-nestle-pote-115g> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4205/feira?&p=1&ftr=> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=71&ftr=> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=84&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/157574/papinha-infantil-de-ameixa-nestle-pote-120g> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=10&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=9&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=14&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/75761/shampoo-head---shoulders-hidratacao-400ml> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=12&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=13&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=11&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=128&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=125&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=126&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=8&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/34688/fralda-turma-da-monica-tripla-protecao-jumbo-grande-pacote-com-28-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=127&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=84&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira?&p=41&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/278386/lenco--de-papel-kleenex-caixa-com-100-unidades-> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=9&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/312754/shampoo-a-seco-charming-pos-quimica-200ml> (referer: http://www.paodeacucar.com.br/secoes/C4231/perfumaria?&p=14&ftr=)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/338179/kit-com-2-shampoos-%2B-1-condicionador-tresemme-capilar-crespo-quimica---400ml-cada> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/315162/creme-de-tratamento-dove-advanced-hair-series-vitality-rejuvenated-350g> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/36953/creme-dental-sorriso-2-em-1-fresh-menta-90g> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/277511/creme-de-tratamento-tresemme-keratin-smooth-1kg> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/191641/hidratante-johnsons-softlotion-pele-dos-sonhos-leve-400ml-pague-320ml> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=71&ftr=> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/312755/shampoo-a-seco-charming-alta-performance-200ml-> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/943/446943.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/943/446943.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/943/446943.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (1 bytes not processed)
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/34688/fralda-turma-da-monica-tripla-protecao-jumbo-grande-pacote-com-28-unidades> (failed 1 times): An error occurred while connecting: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+].
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=15&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/134111/ervilha-partida-yoki-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=14&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=71&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=11&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=12&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=70&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=10&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=9&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=134&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=183&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira?&p=41&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=13&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks?&p=15&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira?&p=13&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=84&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/134111/ervilha-partida-yoki-500g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Outros Gr\xe3os'],
+ 'id': '134111',
+ 'image_name': '134111',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg'],
+ 'images': [{'checksum': '6ca4e750887d796a66ca62fb143951ac',
+             'path': 'full/2eaef1f3d4868e717140d7f32f60751fdb99e6cb.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/488/382488x200x200.jpg'}],
+ 'nome': [u'Ervilha Partida YOKI 500g'],
+ 'preco': [u'7,45'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/50532/ovos-branco-grandes-qualita-bandeja-com-12-unidades> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=15&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/233116/creme-de-leite-pasteurizado-atillate-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=71&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/293717/capsulas-de-cha-nescafe-dolce-gusto-nestea-lemon-caixa-com-16---nestle> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=11&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/20871/aspargos-branco-casino-vidro-395g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=14&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/16746/oleo-de-canola-salada-pet-900ml> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=11&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/93136/azeite-grego-de-oliva-extra-virgem-sparta-vidro-500ml> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=70&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/166130/pimenta-jalapenho-em-conserva-casa-fiesta-lata-113g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=9&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/26606/sopao-de-costela-com-macarrao-e-legumes-maggi-pacote-200g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=10&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/145673/leite-longa-vida-semidesnatado-qualita-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=134&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/175020/batata-tipo-saute-qualita-400g> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira?&p=13&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/76619/refrigerante-fanta-light-laranja-garrafa-2-litros> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=183&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/95362/maxixe-qualita-350g> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira?&p=41&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/154059/espumante-brut-chandon-baby-garrafa-187ml> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=183&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/64656/sagu-yoki-pacote-500g> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=13&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/329745/kit-com-3-amaciantes-mon-bijou-concentrado-noite-dos-sonhos-500ml-cada> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=84&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/329697/kit-com-3-amaciantes-comfort-concentrado-lavanda-e-cassis-500ml-cada> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/329696/kit-com-3-amaciantes-comfort-concentrado-harmony-500ml-cada> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/199640/limpa-carpetes-vantage-500ml> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/145108/cera-em-pasta-com-silicone-carnu-johnson-lata-200g> (referer: http://www.paodeacucar.com.br/secoes/C4233/limpeza?&p=83&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/295/484295.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/295/484295.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/16746/oleo-de-canola-salada-pet-900ml>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'\xd3leos'],
+ 'id': '16746',
+ 'image_name': '16746',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/295/484295.jpg'],
+ 'images': [{'checksum': 'd5d04645d80ffbff2e489be585560530',
+             'path': 'full/aaf13e76993034e6676342442bb6203e99366b9d.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/295/484295.jpg'}],
+ 'nome': [u'\xd3leo de Canola SALADA Pet 900ml'],
+ 'preco': [u'6,55'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/482/403482x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/482/403482x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/166130/pimenta-jalapenho-em-conserva-casa-fiesta-lata-113g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'\xc9tnicos'],
+ 'categorias3': [u'Mexicanos'],
+ 'id': '166130',
+ 'image_name': '166130',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/482/403482x200x200.jpg'],
+ 'images': [{'checksum': '0e863d340e2e92ea1ace8c6ba2dbd42f',
+             'path': 'full/4928901ec13c615cba8d7a9dadc76ae4bfacbbfd.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/482/403482x200x200.jpg'}],
+ 'nome': [u'Pimenta Jalapenho em Conserva CASA FIESTA Lata 113g'],
+ 'preco': [u'14,90'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/206/507206.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/206/507206.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/233116/creme-de-leite-pasteurizado-atillate-500g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Creme de Leite'],
+ 'id': '233116',
+ 'image_name': '233116',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/206/507206.jpg'],
+ 'images': [{'checksum': 'bed9443034458d61fa759512699031a9',
+             'path': 'full/64ed2734c1b05ad0ffb8a21c62e01f22bdae5400.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/206/507206.jpg'}],
+ 'nome': [u'Creme de Leite Pasteurizado ATILLATE 500g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/363/425363x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/363/425363x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/175020/batata-tipo-saute-qualita-400g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Feira'],
+ 'categorias3': [u'Legumes'],
+ 'id': '175020',
+ 'image_name': '175020',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/363/425363x200x200.jpg'],
+ 'images': [{'checksum': '2ed4ba755dbcaf63a51622611dfcdb13',
+             'path': 'full/816ef0b17a947fd78aa553607d54bdbab775964c.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/363/425363x200x200.jpg'}],
+ 'nome': [u'Batata Tipo Saut\xe9 QUALIT\xc1 400g'],
+ 'preco': [u'8,79'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/249/490249.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/249/490249.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/76619/refrigerante-fanta-light-laranja-garrafa-2-litros>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Bebidas'],
+ 'categorias3': [u'Refrigerantes'],
+ 'id': '76619',
+ 'image_name': '76619',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/249/490249.jpg'],
+ 'images': [{'checksum': '19a3eb4abf6d254b5359781d35f78c3b',
+             'path': 'full/e87ee6998c6cba5840c5ec6f5898ab0b834290e0.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/249/490249.jpg'}],
+ 'nome': [u'Refrigerante FANTA Light Laranja Garrafa 2 Litros'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/577/471577.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/577/471577.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/93136/azeite-grego-de-oliva-extra-virgem-sparta-vidro-500ml>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Azeites'],
+ 'id': '93136',
+ 'image_name': '93136',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/577/471577.jpg'],
+ 'images': [{'checksum': '98596077d3848703449026a5794d21e8',
+             'path': 'full/8820b73529c87611b517725bd048f6e1b1cbbaae.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/577/471577.jpg'}],
+ 'nome': [u'Azeite Grego de Oliva Extra Virgem SPARTA Vidro 500ml'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/168/344168x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/168/344168x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/95362/maxixe-qualita-350g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Feira'],
+ 'categorias3': [u'Legumes'],
+ 'id': '95362',
+ 'image_name': '95362',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/168/344168x200x200.jpg'],
+ 'images': [{'checksum': 'a589d55aa150ddbf1ce18e419810d523',
+             'path': 'full/1a13e2332ca54c057922d4537e39dd4dc09b1de7.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/168/344168x200x200.jpg'}],
+ 'nome': [u'Maxixe QUALIT\xc1 350g'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/121/473121.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/121/473121.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/50532/ovos-branco-grandes-qualita-bandeja-com-12-unidades>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Ovos'],
+ 'id': '50532',
+ 'image_name': '50532',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/121/473121.jpg'],
+ 'images': [{'checksum': '9fb19647472f24790f60582d45a3f2f8',
+             'path': 'full/cf556b774598cce7f07ebbaaaf1cc15fd480142f.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/121/473121.jpg'}],
+ 'nome': [u'Ovos Branco Grandes QUALIT\xc1 Bandeja com 12 Unidades'],
+ 'preco': [u'5,59'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/256/474256.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/256/474256.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/730/511730.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/730/511730.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/26606/sopao-de-costela-com-macarrao-e-legumes-maggi-pacote-200g>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Alimentos'],
+ 'categorias3': [u'Sopas e Cremes'],
+ 'id': '26606',
+ 'image_name': '26606',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/256/474256.jpg'],
+ 'images': [{'checksum': 'db67072ab87c52c18776438920114fe2',
+             'path': 'full/37e96a5dd169f796d8b8976f516dbd6d0a1a37ac.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/256/474256.jpg'}],
+ 'nome': [u'Sop\xe3o de Costela com Macarr\xe3o e Legumes MAGGI Pacote 200g'],
+ 'preco': [u'5,35'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/145673/leite-longa-vida-semidesnatado-qualita-1-litro>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Matinais'],
+ 'categorias3': [u'Leite e Achocolatado'],
+ 'id': '145673',
+ 'image_name': '145673',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/730/511730.jpg'],
+ 'images': [{'checksum': '110655824a76ed7bde300ed5b8e57f98',
+             'path': 'full/eafe28d94fc28a7f4c7c86be13ad4b9daccdd5d1.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/730/511730.jpg'}],
+ 'nome': [u'Leite Longa Vida Semidesnatado QUALIT\xc1 1 Litro'],
+ 'preco': [],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/112/510112.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/112/510112.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/112/510112.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (7 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/114/510114.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/114/510114.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/114/510114.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (33 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/400/491400.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/400/491400.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/400/491400.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (34 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/146/510146.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/146/510146.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/146/510146.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (17 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/855/472855.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/855/472855.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/46/474046.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/46/474046.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/46/474046.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (44 bytes not processed)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/img/uploads/1/398/499398.jpg> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/img/uploads/1/750/456750x200x200.gif> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6024
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas> (referer: http://www.paodeacucar.com.br/)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/52621/bebida-a-base-de-soja-sufresh-soyos-sabor-morango-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=1&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/115142/suco-de-uva-del-valle-mais-200ml> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/50682/nectar-de-pessego-del-valle-mais-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/22729/nectar-de-caju-del-valle-mais-1-litro> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/131206/nectar-de-manga-sufresh-200ml> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/104490/iogurte-liquido-com-polpa-de-ameixa-zero-gordura-activia-180g> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/3848/cappuccino-classic-3-coracoes-200g-caixa-com-10-saches> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/87468/peito-de-peru-sem-casca-light-taeq-fatiado-200g> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=34&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=32&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=31&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4229/bebes?&p=33&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4229/bebes)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/91141/manjericao-chinatown-pacote-20g> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/17637/amendoim-crocante-a-granel-sabor-pimenta-200g> (referer: http://www.paodeacucar.com.br/secoes/C4205/feira)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos?&p=71&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4223/alimentos)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/278/452278x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/278/452278x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.scraper:Scraped from <200 http://www.paodeacucar.com.br/produto/52621/bebida-a-base-de-soja-sufresh-soyos-sabor-morango-1-litro>
+{'categorias1': [u'home'],
+ 'categorias2': [u'Matinais'],
+ 'categorias3': [u'Bebidas L\xe1cteas e de Soja'],
+ 'id': '52621',
+ 'image_name': '52621',
+ 'image_urls': ['http://www.paodeacucar.com.br/img/uploads/1/278/452278x200x200.jpg'],
+ 'images': [{'checksum': '155844cdbc5148f0a73fcd504c2c103a',
+             'path': 'full/82a5eba9f9e0069f2af934117c4b8dbd94aa2642.jpg',
+             'url': 'http://www.paodeacucar.com.br/img/uploads/1/278/452278x200x200.jpg'}],
+ 'nome': [u'Bebida \xe0 Base de Soja S\xdaFRESH Soyos Sabor Morango 1 Litro'],
+ 'preco': [u'3,85'],
+ 'qtdCategorias': 3}
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=183&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=182&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=181&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/secoes/C4215/bebidas?&p=180&ftr=> (referer: http://www.paodeacucar.com.br/secoes/C4215/bebidas)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/produto/29992/manteiga-francesa-com-sal-president-tablete-200g> (referer: http://www.paodeacucar.com.br/secoes/C4222/matinais?&p=1&ftr=)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/201/449201x200x200.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/201/449201x200x200.jpg> referred in <None>
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/225/509225.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/225/509225.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/225/509225.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (9 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/411/476411.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/411/476411.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/411/476411.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (65 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/209/509209.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/209/509209.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/209/509209.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (3 bytes not processed)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/produto/326589/kit-com-2-fraldas-huggies-supreme-care-para-meninos-jumbo-extra-grande-pacote-com-16-unidades-cada> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/538/493538.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/538/493538.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/538/493538.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (63 bytes not processed)
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/785/486785.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/785/486785.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/785/486785.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 235, in load
+    raise_ioerror(e)
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 59, in raise_ioerror
+    raise IOError(message + " when reading image file")
+IOError: broken data stream when reading image file
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/img/uploads/1/61/492061.jpg> (referer: None)
+DEBUG:scrapy.pipelines.files:File (downloaded): Downloaded file from <GET http://www.paodeacucar.com.br/img/uploads/1/61/492061.jpg> referred in <None>
+ERROR:scrapy.pipelines.files:File (unknown-error): Error processing file from <GET http://www.paodeacucar.com.br/img/uploads/1/61/492061.jpg> referred in <None>
+Traceback (most recent call last):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\files.py", line 267, in media_downloaded
+    checksum = self.file_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 60, in file_downloaded
+    return self.image_downloaded(response, request, info)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 64, in image_downloaded
+    for path, image, buf in self.get_images(response, request, info):
+  File "C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py", line 18, in get_images
+    for key, image, buf, in super(MyImagesPipeline, self).get_images(response, request, info):
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 84, in get_images
+    image, buf = self.convert_image(orig_image)
+  File "C:\Anaconda2\lib\site-packages\scrapy\pipelines\images.py", line 105, in convert_image
+    image.save(buf, 'JPEG')
+  File "C:\Anaconda2\lib\site-packages\PIL\Image.py", line 1658, in save
+    self.load()
+  File "C:\Anaconda2\lib\site-packages\PIL\ImageFile.py", line 218, in load
+    "(%d bytes not processed)" % len(b))
+IOError: image file is truncated (20 bytes not processed)
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+WARNING:py.warnings:C:\Anaconda2\lib\site-packages\scrapy\core\downloader\handlers\http.py:18: ScrapyDeprecationWarning: HttpDownloadHandler is deprecated, import scrapy.core.downloader.handlers.http10.HTTP10DownloadHandler instead
+  category=ScrapyDeprecationWarning, stacklevel=1)
+
+INFO:scrapy.middleware:Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+INFO:scrapy.middleware:Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+WARNING:py.warnings:C:\Users\Kevin\PycharmProjects\crawlerPaoDeAcucar\crawlerPaoDeAcucar\crawlerPaoDeAcucar\pipelines.py:5: ScrapyDeprecationWarning: Module `scrapy.conf` is deprecated, use `crawler.settings` attribute instead
+  from scrapy.conf import settings
+
+INFO:scrapy.middleware:Enabled item pipelines: MyImagesPipeline, JsonWriterPipeline, CSVWriterPipeline
+INFO:scrapy.core.engine:Spider opened
+INFO:scrapy.extensions.logstats:Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+DEBUG:scrapy.telnet:Telnet console listening on 127.0.0.1:6023
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
+DEBUG:scrapy.core.engine:Crawled (200) <GET http://www.paodeacucar.com.br/> (referer: None)
+DEBUG:scrapy.dupefilters:Filtered duplicate request: <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4231/perfumaria> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4205/feira> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4229/bebes> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4233/limpeza> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4223/alimentos> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4228/biscoitos-e-snacks> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4222/matinais> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+DEBUG:scrapy.downloadermiddlewares.retry:Retrying <GET http://www.paodeacucar.com.br/secoes/C4226/carnes> (failed 1 times): Connection to the other side was lost in a non-clean fashion: Connection lost.
+INFO:root:
+
+##### O processo crawler terminou.
+INFO:root:Finished
+INFO:root:Started
+INFO:root:#### Iniciando script #### 
+
+INFO:scrapy.middleware:Enabled extensions: CloseSpider, TelnetConsole, LogStats, CoreStats, SpiderState
+INFO:root:##### Processo de crawler iniciado. 
+Aguarde o termino do processo....
