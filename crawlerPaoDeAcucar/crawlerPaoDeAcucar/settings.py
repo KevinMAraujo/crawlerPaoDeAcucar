@@ -18,7 +18,7 @@ ITEM_PIPELINES = { 'crawlerPaoDeAcucar.pipelines.MyImagesPipeline' : 1,
                    'crawlerPaoDeAcucar.pipelines.CSVWriterPipeline': 900,
                    }
 
-#IMAGES_STORE = 'C:/Users/Kevin/PycharmProjects/crawlerPaoDeAcucar/crawlerPaoDeAcucar/crawlerPaoDeAcucar/images'
+
 IMAGES_STORE = img_dir
 CSV_DELIMITER = ";"
 FEED_EXPORTERS = {
